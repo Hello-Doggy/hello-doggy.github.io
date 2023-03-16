@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hello Doggy&#39;s Blog</title>
-    <link>https://hello-doggy.github.io/posts/</link>
-    <description>Recent content on Hello Doggy&#39;s Blog</description>
+    <title>数学基础 on Hello Doggy&#39;s Blog</title>
+    <link>https://hello-doggy.github.io/tags/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content in 数学基础 on Hello Doggy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Mar 2023 18:18:01 +0800</lastBuildDate><atom:link href="https://hello-doggy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 18:18:01 +0800</lastBuildDate><atom:link href="https://hello-doggy.github.io/tags/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基础 | 旋转矩阵和正交矩阵的关系</title>
       <link>https://hello-doggy.github.io/posts/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5%E5%92%8C%E6%AD%A3%E4%BA%A4%E7%9F%A9%E9%98%B5%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
@@ -23,24 +23,6 @@
       
       <guid>https://hello-doggy.github.io/posts/%E5%85%B3%E4%BA%8E%E6%B3%95%E5%90%91%E9%87%8F%E5%88%87%E5%90%91%E9%87%8F%E7%9A%84%E6%80%9D%E8%80%83/</guid>
       <description>1. 空间曲面的法向量 已知曲面的方程：$F(x,y,z) = 0$，则该曲面的法向量为 $(\frac{F}{\partial x},\frac{F}{\partial y},\frac{F}{\partial z})$，证明如下： ​ $M_0(x_0,y_0,z_0)$是曲面上的一点，过点$M_0$在曲面上作任意一条曲线，假设曲线的方程为： $$ x=x(t),y=y(t),z=z(t) $$ 因为曲线在曲面上，所以有： $$ F(x(t),y(t),z(t))=0 $$ 方程两边对t求导： $$ \frac{\partial F}{\partial x}x&amp;rsquo;(t)+\frac{\partial F}{\partial</description>
-    </item>
-    
-    <item>
-      <title>AI | 知识图谱推理</title>
-      <link>https://hello-doggy.github.io/posts/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%8E%A8%E7%90%86/</link>
-      <pubDate>Tue, 14 Mar 2023 10:49:02 +0800</pubDate>
-      
-      <guid>https://hello-doggy.github.io/posts/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%8E%A8%E7%90%86/</guid>
-      <description>知识图谱：基本概念 知识图谱可视为包含多种关系的图。在图中， 每个节点是一个实体(如人名、地名、事件 和活动等)，任意两个节点之间的边表示这 两个节点之间存在的关系。 一般而言，可将知识图谱中任意两个相连节点及其连接边表示成一个三元组(triplet), 即 (left_node, relation, right_node) ，例: (David, Father, Mike)。 include</description>
-    </item>
-    
-    <item>
-      <title>CG | 网格参数化：理论与实践（微分几何入门）</title>
-      <link>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</link>
-      <pubDate>Tue, 14 Mar 2023 00:12:38 +0800</pubDate>
-      
-      <guid>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</guid>
-      <description>参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(保角的) + e</description>
     </item>
     
   </channel>
