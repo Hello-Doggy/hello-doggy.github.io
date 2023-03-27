@@ -6,7 +6,34 @@
     <description>Recent content on Hello Doggy&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Mar 2023 18:18:01 +0800</lastBuildDate><atom:link href="https://hello-doggy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 23:04:11 +0800</lastBuildDate><atom:link href="https://hello-doggy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CG | 光栅化Resterization</title>
+      <link>https://hello-doggy.github.io/posts/resterization/</link>
+      <pubDate>Mon, 27 Mar 2023 23:04:11 +0800</pubDate>
+      
+      <guid>https://hello-doggy.github.io/posts/resterization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CG | Viewing(观测) Transformation</title>
+      <link>https://hello-doggy.github.io/posts/viewing_transformation/</link>
+      <pubDate>Mon, 27 Mar 2023 20:22:12 +0800</pubDate>
+      
+      <guid>https://hello-doggy.github.io/posts/viewing_transformation/</guid>
+      <description>1. Preparation: 1.1 Rodrigues&amp;rsquo; Rotation Formula Rotation by angle $\alpha$ around axis $\pmb{n}$: $$ R(\pmb{n},\alpha)=\cos{(\alpha)}\pmb{I} + (1-\cos{(\alpha)})\pmb{n}\pmb{n}^T+\sin{(\alpha)} \begin {pmatrix} 0 &amp;amp; -n_z &amp;amp; n_y \\n_z &amp;amp; 0 &amp;amp; -n_x \\-n_y &amp;amp; n_x &amp;amp; 0 \end {pmatrix} $$ 但需要注意的是，这里的轴$\pmb{n}$默认是过原点的轴（起点是原点），如果想要实现绕任意轴旋转，我们可以利用变换的分解，先将轴的起点移动到原点，然后再旋转，最后平移回去。 此外，矩阵$\begin {pmatrix} 0 &amp;amp; -n_z</description>
+    </item>
+    
+    <item>
+      <title>（有误待定）线代 ｜ 奇异值分解(SVD)</title>
+      <link>https://hello-doggy.github.io/posts/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/</link>
+      <pubDate>Thu, 16 Mar 2023 20:33:12 +0800</pubDate>
+      
+      <guid>https://hello-doggy.github.io/posts/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/</guid>
+      <description>奇异值分解（SVD）：The singular value decomposition 首先考虑$2\times2$的一个矩阵，对于这个矩阵，我们总能找到一组正交基，经过此矩阵变换后转换成另一组正交基，我们首先假设我们找到的是一组标准正交基： 我们使用$\pmb{u_1,u_2}$来表示 $M\pmb{v_1},M\pmb{v_2}$ 的标准向量，长度分别为$\sigma_1,\s</description>
+    </item>
+    
     <item>
       <title>基础 | 旋转矩阵和正交矩阵的关系</title>
       <link>https://hello-doggy.github.io/posts/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5%E5%92%8C%E6%AD%A3%E4%BA%A4%E7%9F%A9%E9%98%B5%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
@@ -35,12 +62,12 @@
     </item>
     
     <item>
-      <title>CG | 网格参数化：理论与实践（微分几何入门）</title>
+      <title>CG | 网格参数化：理论与实践</title>
       <link>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Tue, 14 Mar 2023 00:12:38 +0800</pubDate>
       
       <guid>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</guid>
-      <description>参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(保角的) + e</description>
+      <description>微分几何入门 参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(</description>
     </item>
     
     

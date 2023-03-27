@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>CG | 网格参数化：理论与实践（微分几何入门）</title>
+      <title>CG | 网格参数化：理论与实践</title>
       <link>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Tue, 14 Mar 2023 00:12:38 +0800</pubDate>
       
       <guid>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</guid>
-      <description>参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(保角的) + e</description>
+      <description>微分几何入门 参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(</description>
     </item>
     
   </channel>
