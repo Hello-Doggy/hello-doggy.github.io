@@ -13,7 +13,7 @@
       <pubDate>Mon, 27 Mar 2023 23:04:11 +0800</pubDate>
       
       <guid>https://hello-doggy.github.io/posts/resterization/</guid>
-      <description></description>
+      <description>我们通过mvp(model / view / projection)得到了一个3维的标准立方体，那么怎么把标准立方体里的内容最终呈现在2维屏幕上，这就是光栅化做的事情。 1. Triangles 怎么解决这个走样（锯齿）问题呢？ ​ 2. Antialiasing 2.1 Sampling Theory 参考资料: https://zhuanlan.zhihu.com/p/99605178 ​ 2.2 Antialiasing in practice 但是这种求平均的方法计算量有点大，所以我们用一种近似的方</description>
     </item>
     
     <item>
@@ -23,15 +23,6 @@
       
       <guid>https://hello-doggy.github.io/posts/viewing_transformation/</guid>
       <description>1. Preparation: 1.1 Rodrigues&amp;rsquo; Rotation Formula Rotation by angle $\alpha$ around axis $\pmb{n}$: $$ R(\pmb{n},\alpha)=\cos{(\alpha)}\pmb{I} + (1-\cos{(\alpha)})\pmb{n}\pmb{n}^T+\sin{(\alpha)} \begin {pmatrix} 0 &amp;amp; -n_z &amp;amp; n_y \\n_z &amp;amp; 0 &amp;amp; -n_x \\-n_y &amp;amp; n_x &amp;amp; 0 \end {pmatrix} $$ 但需要注意的是，这里的轴$\pmb{n}$默认是过原点的轴（起点是原点），如果想要实现绕任意轴旋转，我们可以利用变换的分解，先将轴的起点移动到原点，然后再旋转，最后平移回去。 此外，矩阵$\begin {pmatrix} 0 &amp;amp; -n_z</description>
-    </item>
-    
-    <item>
-      <title>（有误待定）线代 ｜ 奇异值分解(SVD)</title>
-      <link>https://hello-doggy.github.io/posts/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/</link>
-      <pubDate>Thu, 16 Mar 2023 20:33:12 +0800</pubDate>
-      
-      <guid>https://hello-doggy.github.io/posts/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3/</guid>
-      <description>奇异值分解（SVD）：The singular value decomposition 首先考虑$2\times2$的一个矩阵，对于这个矩阵，我们总能找到一组正交基，经过此矩阵变换后转换成另一组正交基，我们首先假设我们找到的是一组标准正交基： 我们使用$\pmb{u_1,u_2}$来表示 $M\pmb{v_1},M\pmb{v_2}$ 的标准向量，长度分别为$\sigma_1,\s</description>
     </item>
     
     <item>
@@ -50,24 +41,6 @@
       
       <guid>https://hello-doggy.github.io/posts/%E5%85%B3%E4%BA%8E%E6%B3%95%E5%90%91%E9%87%8F%E5%88%87%E5%90%91%E9%87%8F%E7%9A%84%E6%80%9D%E8%80%83/</guid>
       <description>1. 空间曲面的法向量 已知曲面的方程：$F(x,y,z) = 0$，则该曲面的法向量为 $(\frac{F}{\partial x},\frac{F}{\partial y},\frac{F}{\partial z})$，证明如下： ​ $M_0(x_0,y_0,z_0)$是曲面上的一点，过点$M_0$在曲面上作任意一条曲线，假设曲线的方程为： $$ x=x(t),y=y(t),z=z(t) $$ 因为曲线在曲面上，所以有： $$ F(x(t),y(t),z(t))=0 $$ 方程两边对t求导： $$ \frac{\partial F}{\partial x}x&amp;rsquo;(t)+\frac{\partial F}{\partial</description>
-    </item>
-    
-    <item>
-      <title>AI | 知识图谱推理</title>
-      <link>https://hello-doggy.github.io/posts/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%8E%A8%E7%90%86/</link>
-      <pubDate>Tue, 14 Mar 2023 10:49:02 +0800</pubDate>
-      
-      <guid>https://hello-doggy.github.io/posts/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%8E%A8%E7%90%86/</guid>
-      <description>知识图谱：基本概念 知识图谱可视为包含多种关系的图。在图中， 每个节点是一个实体(如人名、地名、事件 和活动等)，任意两个节点之间的边表示这 两个节点之间存在的关系。 一般而言，可将知识图谱中任意两个相连节点及其连接边表示成一个三元组(triplet), 即 (left_node, relation, right_node) ，例: (David, Father, Mike)。 include</description>
-    </item>
-    
-    <item>
-      <title>CG | 网格参数化：理论与实践</title>
-      <link>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</link>
-      <pubDate>Tue, 14 Mar 2023 00:12:38 +0800</pubDate>
-      
-      <guid>https://hello-doggy.github.io/posts/%E7%BD%91%E6%A0%BC%E5%8F%82%E6%95%B0%E5%8C%96%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5/</guid>
-      <description>微分几何入门 参数化 Parameterization ​ 1. 常见例子： 柱坐标 Cylindrical Coordinates 正交投影 Orthographic Projection 立体投影 Stereographic Projection 地球映射 ​ 2. 形变(distortion) 参数化在实际应用中会带来形变扭曲(distortion)，这是我们不想看到的。 但是有定理证明，没有形变的参数化几乎是不可能的。 Theorema Egregium: &amp;ldquo;A general surface cannot be parameterized without distortion.&amp;rdquo; no distortion = conformal(</description>
     </item>
     
     
